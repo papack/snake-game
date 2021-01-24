@@ -16,6 +16,7 @@ setInterval(() => {
 
 window.addEventListener("keydown", changeDirection);
 
+//add initial foot
 addFood();
 
 function gameloop() {
