@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanalei&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+h1 {
+  margin: 2rem;
+  font-size: 4.8rem;
+  font-family: "Hanalei", cursive;
+  color: darkgreen;
+}
+
+canvas {
+  border: 1px solid black;
+}
+
+.statusContainer {
+  display: flex;
+  justify-content: flex-start;
+  width: 500px;
+  height: 3rem;
+  align-items: center;
+}
+
+.statusContainer div {
+  font-family: arial;
+  color: red;
+}
